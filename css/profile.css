@@ -20,6 +20,16 @@
     object-position: center;
 }
 
+.profile-xs > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
 .profile-l > div, .profile-m > div, .profile-s > div {
     margin-left: 15px;
 }
@@ -32,9 +42,15 @@
     font-size: medium;
     font-weight: 500;
 }
+.profile-xs__name {
+    font-size: smaller;
+    font-weight: 400;
+}
 
 .profile__message {
     font-size: small;
     color: rgb(99, 93, 255);
     margin-top: 8px;
 }
+
+

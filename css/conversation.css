@@ -1,0 +1,87 @@
+.conv__header {
+    background: linear-gradient(to bottom, lavender, aliceblue);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.conv__header > div {
+    display: flex;
+}
+
+.conv__header > div > * {
+    margin: 0px 10px;
+}
+
+
+.profile-xs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.profile-xs__name {
+    margin-left: 10px;
+}
+
+.text__disgust, .text__me {
+    margin: 15px;
+    width: 95%;
+}
+
+.text__disgust > p, .text__me > p {
+    padding: 10px;
+    background-color: white;
+    width:max-content;
+    box-shadow: 0px 5px 10px rgb(214, 214, 255);
+    border-radius: 20px;
+    margin: 5px;
+    font-size: medium;
+}
+
+.text__me > p {
+    position: absolute;
+    right: 15px;
+}
+.text__me {
+    width: 40px;
+    height: 40px;
+}
+
+.date {
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to left, lavender, aliceblue);
+    width: max-content;
+    padding: 5px 8px;
+    font-size: smaller;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgb(227, 227, 255);
+}
+
+.text__input {
+    position: absolute;
+    bottom: 0px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to top, lavender, aliceblue);
+    width: 100%;
+}
+.text__area {
+    width: 90%;
+    margin-right: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+.text__button {
+    border: none;
+    padding: 10px;
+    background-color: rgb(221, 221, 255);
+    border-radius: 50px;
+}
+.text__button:hover {
+    background-color: rgb(211, 211, 255);
+    cursor: pointer;
+}

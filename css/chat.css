@@ -1,0 +1,10 @@
+.profile-s {
+    margin: 15px;
+    box-shadow: 0px 5px 10px rgb(197, 197, 255);
+    border-radius: 20px;
+}
+
+.profile-s:hover {
+    background: linear-gradient(to right, aliceblue, lavender);
+    cursor: pointer;
+}
