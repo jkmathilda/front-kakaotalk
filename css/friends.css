@@ -1,4 +1,11 @@
-
+@keyframes rotateZ {
+    from {
+        transform: rotateX(0deg);
+    }
+    to {
+        transform: rotateX(360deg);
+    }
+}
 
 .profile-l, .suggestion, .friends-list {
     background: linear-gradient(to left, aliceblue, lavender);
@@ -53,8 +60,8 @@
     font-size: 12px;
 }
 
-
 .profile-s:hover, .profile-l:hover {
     cursor: pointer;
     background: linear-gradient(to left, lavender, aliceblue);
+    animation: rotateZ 1s;
 }

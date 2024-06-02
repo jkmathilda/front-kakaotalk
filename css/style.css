@@ -19,6 +19,10 @@ body {
     justify-content: center;
 }
 
+.text__friend {
+    animation: rotate 3s;
+}
+
 .status-bar {
     display: flex;
     padding: 5px;
