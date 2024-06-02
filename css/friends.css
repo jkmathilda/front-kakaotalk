@@ -1,0 +1,52 @@
+
+
+.profile-l, .suggestion, .friends-list {
+    background: linear-gradient(to left, aliceblue, lavender);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.suggestion {
+    background: linear-gradient(to left, lavender, aliceblue);
+}
+.suggestion > h1, .friends-list > h1 {
+    font-size: smaller;
+    padding: 15px 0px 0px 15px;
+}
+.suggestion__more {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    border-top: 3px dashed white;
+    font-size: small;
+}
+.suggestion__more:hover {
+    cursor: pointer;
+    color: rgb(79, 123, 234);
+}
+
+.friends-list {
+    position: relative;
+}
+
+.profile__music {
+    position: absolute;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    background-color: lavender;
+    padding: 5px 15px;
+    border-radius: 25px;
+    color: rgb(96, 4, 181);
+}
+.profile__music > i {
+    margin-right: 10px;
+}
+.music__title {
+    font-size: 14px;
+}
+.music__artist {
+    margin-top: 3px;
+    font-size: 12px;
+}

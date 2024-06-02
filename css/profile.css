@@ -1,0 +1,40 @@
+.profile-l, .profile-m, .profile-s {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-l > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-s > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-l > div, .profile-m > div, .profile-s > div {
+    margin-left: 15px;
+}
+
+.profile-l__name {
+    font-size: larger;
+    font-weight: 500;
+}
+.profile-s__name {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.profile__message {
+    font-size: small;
+    color: rgb(99, 93, 255);
+    margin-top: 8px;
+}
