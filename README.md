@@ -1,2 +1,2 @@
-# front-kakaotalk
-Kakaotalk clone (only the structure)
+# front-messageapp
+Message App clone (only the structure)
