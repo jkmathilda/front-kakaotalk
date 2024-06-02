@@ -51,3 +51,8 @@
     margin-top: 3px;
     font-size: 12px;
 }
+
+
+.profile-s:hover, .profile-l:hover {
+    cursor: pointer;
+}
