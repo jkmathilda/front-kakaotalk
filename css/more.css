@@ -7,13 +7,14 @@
 
 .profile-l {
     border-bottom: 3px dashed rgb(118, 113, 250);
-}
-.profile-l > i {
     position: relative;
-    right: -80px;
+}
+.edit {
+    position: absolute;
+    right: 20px;
     font-size: x-large;
 }
-.profile-l > i:hover, .icons__row > div:hover {
+.edit:hover, .icons__row > div:hover {
     cursor: pointer;
     color: rgb(99, 93, 255);
 }
