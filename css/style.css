@@ -15,6 +15,7 @@
 body {
     font-family: "Ubuntu", sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 #screen {
@@ -31,7 +32,7 @@ body {
     background-color: lavender;
     font-size: 13px;
     justify-content: space-between;
-    width: 450px; 
+    width: 100%; 
     position: inherit; 
 }
 
@@ -61,8 +62,9 @@ body {
     width: 100%;
     justify-content: space-around;
     position: absolute;
-    bottom: 0px;
+    bottom: -5px;
     padding: 30px;
+    z-index: 99;
 }
 
 #menu > * {

@@ -41,25 +41,31 @@
 }
 
 
-.ad {
+.ad__image-container {
+    position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-}
-.ad:hover {
-    cursor: pointer;
-}
-.ad > img {
-    width: 380px;
-    box-shadow: 0px 5px 15px rgb(212, 212, 255);
+    width: 80%;
+    margin: 30px auto;
 }
 
-.ad-label {
+.ad__image-container > img {
+    width: 100%;
+    box-shadow: 0px 5px 15px rgb(212, 212, 255);
+    display: block;
+}
+
+.ad__label {
     position: absolute;
     padding: 5px 10px;
     background-color: rgba(230, 230, 250, 0.5);
     font-size: smaller;
     border-radius: 40px;
-    top: 507px;
-    right: 45px;
+    top: 5px;
+    right: 5px;
+}
+
+.content {
+    height: 88vh;
+    overflow: auto;
 }

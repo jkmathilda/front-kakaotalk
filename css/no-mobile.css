@@ -3,15 +3,16 @@
     z-index: 999;
     height: 100vh;
     width: 100vw;
-    /* background: linear-gradient(to bottom, aliceblue, lavender); */
-    background-color: pink;
+    background: linear-gradient(to bottom, rgb(213, 235, 255), rgb(206, 206, 255));
+    font-size: 30px;
+    font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
     top: 0;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
     #no-mobile {
         display: none;
     }

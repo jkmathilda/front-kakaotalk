@@ -1,7 +1,6 @@
 .setting__content {
     background: linear-gradient(to bottom, mintcream, lavender,  aliceblue);
-    width: 450px;
-    height: 800px;
+    height: 100vh;
 }
 
 .header {
