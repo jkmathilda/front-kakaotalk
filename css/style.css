@@ -23,22 +23,29 @@ body {
     background-color: lavender;
     font-size: 13px;
     justify-content: space-between;
+    width: 450px; 
+    position: inherit; 
 }
+
 .status-bar__column {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 33%;
 }
+
 .status-bar__column > * {
     margin: 0px 5px;
 }
+
 .status-bar__wifi {
     justify-content: flex-start;
 }
+
 .status-bar__battery {
     justify-content: flex-end;
 }
+
 
 #menu {
     background-color: lavender;
@@ -67,3 +74,22 @@ body {
     cursor: default;
 }
 
+#content {
+    overflow: scroll;
+    height: 800px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.header > h1 {
+    font-size: xx-large;
+    font-weight: 500;
+}
+.header>div>* {
+    margin: 0px 10px;
+    font-size: large;
+}
