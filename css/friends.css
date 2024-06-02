@@ -11,7 +11,7 @@
 }
 .suggestion > h1, .friends-list > h1 {
     font-size: smaller;
-    padding: 15px 0px 0px 15px;
+    padding: 15px 0px 10px 15px;
     font-weight: 600;
 }
 .suggestion__more {
@@ -29,6 +29,7 @@
 
 .friends-list {
     position: relative;
+    margin-bottom: 100px;
 }
 
 .profile__music {
@@ -55,4 +56,5 @@
 
 .profile-s:hover, .profile-l:hover {
     cursor: pointer;
+    background: linear-gradient(to left, lavender, aliceblue);
 }
