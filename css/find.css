@@ -1,0 +1,77 @@
+.container {
+    padding: 20px;
+    background: linear-gradient(to bottom, lavender, aliceblue);
+    margin: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.container > h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.container__add {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border-bottom: 3px dashed white;
+}
+.container__add > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.container__add > div > p {
+    font-size: small;
+    margin-top: 5px;
+}
+.container__add > div:hover {
+    cursor: pointer;
+    color: rgb(112, 112, 255);
+}
+
+
+.profile__add {
+    display: flex;
+    background-color: rgb(219, 219, 255);
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    position: absolute;
+    right: 30px;
+}
+.profile__add:hover {
+    cursor: pointer;
+    background-color: rgb(202, 202, 255);
+}
+.profile__add > p {
+    margin-left: 10px;
+}
+
+
+.ad {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.ad:hover {
+    cursor: pointer;
+}
+.ad > img {
+    width: 380px;
+    box-shadow: 0px 5px 15px rgb(212, 212, 255);
+}
+
+.ad__label {
+    position: absolute;
+    padding: 5px 10px;
+    background-color: rgba(230, 230, 250, 0.5);
+    font-size: smaller;
+    border-radius: 40px;
+    top: 523px;
+    right: 45px;
+}

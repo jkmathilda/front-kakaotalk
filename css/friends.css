@@ -12,6 +12,7 @@
 .suggestion > h1, .friends-list > h1 {
     font-size: smaller;
     padding: 15px 0px 0px 15px;
+    font-weight: 600;
 }
 .suggestion__more {
     display: flex;
